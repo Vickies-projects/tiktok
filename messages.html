@@ -17,6 +17,7 @@
       border-radius: 2px;
     }
 </style>
+
 </head>
 <body class="bg-black text-white font-sans relative min-h-screen overflow-hidden">
     <!-- Top navigation bar -->
@@ -68,13 +69,10 @@
   <i class="fas fa-th-large text-lg"></i>
   <span class="font-bold">Explore</span>
 </a>
-   <a  href="#" class="flex items-center justify-center bg-white rounded-3xl w-12 h-8 relative">
-    <div class="absolute left-0 w-3 h-6 rounded-l-3xl bg-[#25f4ee]">
-    </div>
-    <div class="absolute right-0 w-3 h-6 rounded-r-3xl bg-[#fe2c55]">
-    </div>
-    <i class="fas fa-plus text-black text-xl relative z-10">
-    </i>
+<a href="#upload" aria-label="Upload" title="Upload" class="flex items-center justify-center bg-white rounded-3xl w-12 h-8 relative">
+ <div class="absolute left-0 w-3 h-6 rounded-l-3xl bg-[#25f4ee]"></div>
+ <div class="absolute right-0 w-3 h-6 rounded-r-3xl bg-[#fe2c55]"></div>
+ <i class="fas fa-plus text-black text-xl relative z-10"></i>
 </a>
    <a href="messages.html" class="flex flex-col items-center space-y-1 relative">
     <i class="far fa-comment-alt text-lg">
@@ -91,7 +89,7 @@
     </span>
 </a>
   </nav>  
-    <script>
+  <script>
   const toggle = document.getElementById('dropdownToggle');
   const menu = document.getElementById('dropdownMenu');
   const arrow = document.getElementById('arrowIcon');
@@ -109,6 +107,5 @@
     }
   });
 </script>
-
 </body>
 </html>
